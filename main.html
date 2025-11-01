@@ -3,91 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nested Tables HTML Only</title>
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table width="100%" border="2" cellspacing="0" cellpadding="5" align="center">
-      <tr>
-        <!-- Top Left -->
-        <td valign="top" align="center">
-          <table border="2" cellspacing="0" cellpadding="5" align="center">
-            <thead>
-              <tr>
-                <th colspan="2">Nested Table 2</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><b>Column 1</b></td>
-                <td><b>Column 2</b></td>
-              </tr>
-              <tr>
-                <td>abc</td>
-                <td>def</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
+    <table style="width: 100%; height: 100%" align = "center" border = "2" cellpadding="10">
+      <!-- Your code here -->
+		
+	<tr>
+		<td>
+			<table align = "center" border = "2" width="100%">
+				<thead>
+					<tr>
+						<th colspan = "2">Nested Table 2</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td align="center" valign="middle"><b>Column 1</b></td><td align="center" valign="middle"><b>Column 2</b></td>
+					</tr>
+					<tr>
+						<td align="center" valign="middle">abc</td><td align="center" valign="middle">def</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+		<td>
+			<table align = "center" border = "2" width="100%">
+				<thead>
+					<tr>
+						<th colspan = "2">Nested Table 1</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td align="center" valign="middle">
+							<ul>
+								<li>List item</li>
+								<li>List item</li>
+								<li>List item</li>
+							</ul>
+						</td>
+					</tr>
 
-        <!-- Top Right -->
-        <td valign="top" align="center">
-          <table border="2" cellspacing="0" cellpadding="5" align="center">
-            <thead>
-              <tr>
-                <th colspan="2">Nested Table 1</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td colspan="2" align="left">
-                  <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr>	
+		<td>
+			<table align = "center" border = "2" width="100%">
+				<thead>
+					<tr>
+						<th colspan = "2">Nested Table 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td align="center" valign="middle"><a href = "">Nested Table</a></td><td align="center" valign="middle">Demo Continued</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+		<td>
+			<table align = "center" border = "2" width="100%">
+				<thead>
+					<tr>
+						<th colspan = "2">Nested Table 4</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td bgcolor = "black" style = "color : white" align="center" valign="middle">HTML</td>
+					</tr>
 
-      <tr>
-        <!-- Bottom Left -->
-        <td valign="top" align="center">
-          <table border="2" cellspacing="0" cellpadding="5" align="center">
-            <thead>
-              <tr>
-                <th colspan="2">Nested Table 3</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><a href="#">Nested Table</a></td>
-                <td>Demo Continued</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-
-        <!-- Bottom Right -->
-        <td valign="top" align="center">
-          <table border="2" cellspacing="0" cellpadding="5" align="center">
-            <thead>
-              <tr>
-                <th colspan="2">Nested Table 4</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td colspan="2" bgcolor="black">
-                  <font color="white"><b>HTML</b></font>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+		
     </table>
   </body>
 </html>
